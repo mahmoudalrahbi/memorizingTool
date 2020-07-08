@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+
+    <script src="script.js" defer></script>
+
+    <title>Memorizing tool!</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form action="post">
+                    <div class="form-group">
+                        <label>Type here</label>
+                        <textarea class="form-control" id="editor1" name="story" placeholder="Add Body" oninput="display();"
+                            rows="20"> </textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form action="post">
+                    <div class="form-group">
+                        <label>Past here</label>
+                        <textarea class="form-control" id="editor2" name="body" placeholder="Add Body"> </textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <button type="button">Start</button>
+
+
+    </div>
+
+
+
+
+
+  
+</body>
+
+</html>
